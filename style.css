@@ -186,6 +186,9 @@
     font-size: 20px;
     color: #7E8088;
     font-family: "Azeret Mono", monospace; 
-
+}
+/* shared */
+.first-sub{
+    margin: 80px 0;
 }
 /* development-section-style-end */
