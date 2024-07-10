@@ -256,9 +256,177 @@
     margin-bottom: 40px;
     text-align: center;
 }
-.three-div-flex{
+.third-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    
+}
+.third-div{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    margin-bottom: 80px;
+}
+.third-flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    /* align-items: center; */
+    /* width: 1000px; */
+}
+.first{
+    padding: 50px;
+    background-color: #FFF6F4;
+}
+.second{
+    padding: 50px;
+    background-color: #F2F6FE;
+}
+.third{
+    padding: 50px;
+    background-color: #FFFDF2;
+}
+.img-html{
+    margin: 20px 0;
+}
+.first  h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace; 
+    margin: 10px 0;
+
+
+}
+.first  p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #7E8088;
+    font-family: "Azeret Mono", monospace; 
+    margin: 10px 0;
+
+}
+.first  button{
+    border: none;
+    margin: 15px 0;
+    background-color: #FFF6F4;
+
+}
+.first  button a{
+    color: #0D1321;
+    font-size: 16px;
+}
+.second h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace; 
+    margin: 10px 0;
+
+}
+.second p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #7E8088;
+    font-family: "Azeret Mono", monospace; 
+    margin: 10px 0;
+
+}
+.second button{
+    border: none;
+    margin: 15px 0;
+    background-color: #F2F6FE;
+}
+.second button a{
+    color: #0D1321;
+    font-size: 16px;
+}
+.third h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace; 
+    margin: 10px 0;
+
+}
+.third p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #7E8088;
+    font-family: "Azeret Mono", monospace; 
+    margin: 10px 0;
+
+}
+.third button{
+    border: none;
+    margin: 15px 0;
+    background-color: #FFFDF2;
+
+}
+.third button a{
+    color: #0D1321;
+    font-size: 16px;
+}
+
+/* target-section-end */
+/* support-section-start */
+.handsup{
+    width: 1450px;
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 250px;
+    margin-bottom: 80px;
+    background-image: url("./images/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+
 }
-/* target-section-end */
+.handsup-containt{
+
+}
+.handsup-containt .handsup-tittle h2{
+    text-align: center;
+    margin: 50px 0 40px 0;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace; 
+    color: #F2F6FE;
+}
+.handsup-containt .handsup-tittle p{
+    text-align: center;
+    /* margin: 50px 0 40px 0; */
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace; 
+    color: #C6C3C3;
+    font-family: "Azeret Mono", monospace; 
+    /* margin: 10px 0; */
+}
+.handsup-level{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.handsup-level .first-in input{
+    padding: 20px 250px 20px 250px ;
+    border-radius: 10px;
+    border: none;
+}
+.handsup-level .first-in  :placeholder-shown{
+    font-size: 16px;
+}
+.handsup-level .secound-in input{
+    margin-left: 10px;
+    padding: 25px 40px 25px 40px;
+    border-radius: 10px;
+    
+}
+.handsup-level .secound-in  :placeholder-shown{
+    font-size: 16px;
+}
+
+/* support-section-end */
