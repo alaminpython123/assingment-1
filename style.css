@@ -246,7 +246,7 @@
     font-family: "Azeret Mono", monospace; 
     margin: 30px; 
     text-align: center;
-0
+
 }
 .target-flex .target-des p{
     font-size: 16px;
@@ -255,5 +255,10 @@
     font-weight: 400px;
     margin-bottom: 40px;
     text-align: center;
+}
+.three-div-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* target-section-end */
