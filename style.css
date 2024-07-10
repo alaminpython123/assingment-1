@@ -111,6 +111,81 @@
     color: #7E8088;
     font-family: "Azeret Mono", monospace;  
     padding: 0 65px 25px 65px; 
+    margin-bottom: 80px;
+
+}
+.first-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-des-1{
+    width: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.first-flex .flex-des-1 h3{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace; 
+    margin: 30px; 
+
+
+}
+.first-flex .flex-des-1 p{
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family: "Azeret Mono", monospace; 
+    font-weight: 400px;
+    margin: 15px 30px 15px 30px   ;
+}
+.first-flex .flex-des-1 button{
+    margin: 15px 30px 15px 30px   ;
+    padding: 12px 40px;
+}
+.first-flex .flex-des-1 button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #7E8088;
+    font-family: "Azeret Mono", monospace; 
+}
+.secound-flex {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+.secound-flex-img {
+    /* width: 50%; */
+    margin-left: 150px;
+
+}
+.secound-flex-des{
+    background: #FFFFFF;
+}
+.secound-flex-des h3{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace; 
+    margin: 30px; 
+
+}
+.secound-flex-des p{
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family: "Azeret Mono", monospace; 
+    font-weight: 400px;
+    margin: 15px 30px 15px 30px   ;
+
+}
+.secound-flex-des button{
+    margin: 15px 30px 15px 30px   ;
+    padding: 12px 40px;
+
+}
+.secound-flex-des button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #7E8088;
+    font-family: "Azeret Mono", monospace; 
 
 }
 /* development-section-style-end */
