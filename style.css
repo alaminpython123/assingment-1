@@ -83,3 +83,34 @@
 
 }
 /* future-section-style-end */
+/* development-section-style-start */
+.development{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    /* width: 1150px; */
+}
+.development-contiant{
+    width: 1400px;
+    background-color: #FAFAFB;
+
+}
+.development-contiant .development-tittle{
+    text-align: center;
+    margin: 50px 0 15px 0;
+    font-size: 32px ;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;   
+
+}
+.development-contiant .develop-descript{
+    text-align: center;
+    font-size: 16px;
+    color: #7E8088;
+    font-family: "Azeret Mono", monospace;  
+    padding: 0 65px 25px 65px; 
+
+}
+/* development-section-style-end */
